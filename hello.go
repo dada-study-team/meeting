@@ -2,5 +2,7 @@ package main
 import "fmt"
 
 func main(){
-  fmt.Println("Hello")
+	var a int = 9
+	var b int = 8
+  fmt.Println("Hello",b+a)
 }
